@@ -221,6 +221,28 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">../images/explosion1.png</key>
+            <key type="filename">../images/explosion2.png</key>
+            <key type="filename">../images/explosion3.png</key>
+            <key type="filename">../images/explosion4.png</key>
+            <key type="filename">../images/explosion5.png</key>
+            <key type="filename">../images/explosion6.png</key>
+            <key type="filename">../images/explosion7.png</key>
+            <key type="filename">../../../COMP397-W2018-MailPilotDemo-Opt/Assets/images/plane1.png</key>
+            <key type="filename">../../../COMP397-W2018-MailPilotDemo-Opt/Assets/images/plane2.png</key>
+            <key type="filename">../../../COMP397-W2018-MailPilotDemo-Opt/Assets/images/plane3.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>16,16,33,33</rect>
+                <key>scale9Paddings</key>
+                <rect>16,16,33,33</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">../../../COMP397-W2018-MailPilotDemo-Opt/Assets/images/cloud.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -244,21 +266,6 @@
                 <rect>16,16,31,31</rect>
                 <key>scale9Paddings</key>
                 <rect>16,16,31,31</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../../../COMP397-W2018-MailPilotDemo-Opt/Assets/images/plane1.png</key>
-            <key type="filename">../../../COMP397-W2018-MailPilotDemo-Opt/Assets/images/plane2.png</key>
-            <key type="filename">../../../COMP397-W2018-MailPilotDemo-Opt/Assets/images/plane3.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>16,16,33,33</rect>
-                <key>scale9Paddings</key>
-                <rect>16,16,33,33</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -296,6 +303,13 @@
             <filename>../images/coin08.png</filename>
             <filename>../images/coin09.png</filename>
             <filename>../images/coin10.png</filename>
+            <filename>../images/explosion6.png</filename>
+            <filename>../images/explosion7.png</filename>
+            <filename>../images/explosion1.png</filename>
+            <filename>../images/explosion2.png</filename>
+            <filename>../images/explosion3.png</filename>
+            <filename>../images/explosion4.png</filename>
+            <filename>../images/explosion5.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
