@@ -6,7 +6,7 @@
         <key>texturePackerVersion</key>
         <string>4.6.1</string>
         <key>fileName</key>
-        <string>D:/zCentennial/winter2018/Webgaming/COMP397-W2018-MailPilotDemo-Opt/Assets/sprites/MailPilotDemoProject.tps</string>
+        <string>D:/zCentennial/winter2018/Webgaming/COMP397-W2018-MailPilotDemo-F/Assets/sprites/MailPilotDemoProject.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -187,7 +187,7 @@
             <key>trimMargin</key>
             <uint>1</uint>
             <key>trimMode</key>
-            <enum type="SpriteSettings::TrimMode">Trim</enum>
+            <enum type="SpriteSettings::TrimMode">None</enum>
             <key>tracerTolerance</key>
             <int>200</int>
             <key>heuristicMask</key>
@@ -199,7 +199,29 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">../images/cloud.png</key>
+            <key type="filename">../images/coin01.png</key>
+            <key type="filename">../images/coin02.png</key>
+            <key type="filename">../images/coin03.png</key>
+            <key type="filename">../images/coin04.png</key>
+            <key type="filename">../images/coin05.png</key>
+            <key type="filename">../images/coin06.png</key>
+            <key type="filename">../images/coin07.png</key>
+            <key type="filename">../images/coin08.png</key>
+            <key type="filename">../images/coin09.png</key>
+            <key type="filename">../images/coin10.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>11,10,22,20</rect>
+                <key>scale9Paddings</key>
+                <rect>11,10,22,20</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../../../COMP397-W2018-MailPilotDemo-Opt/Assets/images/cloud.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -212,7 +234,7 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../images/island.png</key>
+            <key type="filename">../../../COMP397-W2018-MailPilotDemo-Opt/Assets/images/island.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -225,9 +247,9 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../images/plane1.png</key>
-            <key type="filename">../images/plane2.png</key>
-            <key type="filename">../images/plane3.png</key>
+            <key type="filename">../../../COMP397-W2018-MailPilotDemo-Opt/Assets/images/plane1.png</key>
+            <key type="filename">../../../COMP397-W2018-MailPilotDemo-Opt/Assets/images/plane2.png</key>
+            <key type="filename">../../../COMP397-W2018-MailPilotDemo-Opt/Assets/images/plane3.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -240,8 +262,8 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">../images/restartButton.png</key>
-            <key type="filename">../images/startButton.png</key>
+            <key type="filename">../../../COMP397-W2018-MailPilotDemo-Opt/Assets/images/restartButton.png</key>
+            <key type="filename">../../../COMP397-W2018-MailPilotDemo-Opt/Assets/images/startButton.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -257,13 +279,23 @@
         </map>
         <key>fileList</key>
         <array>
-            <filename>../images/restartButton.png</filename>
-            <filename>../images/startButton.png</filename>
-            <filename>../images/cloud.png</filename>
-            <filename>../images/island.png</filename>
-            <filename>../images/plane1.png</filename>
-            <filename>../images/plane2.png</filename>
-            <filename>../images/plane3.png</filename>
+            <filename>../../../COMP397-W2018-MailPilotDemo-Opt/Assets/images/restartButton.png</filename>
+            <filename>../../../COMP397-W2018-MailPilotDemo-Opt/Assets/images/startButton.png</filename>
+            <filename>../../../COMP397-W2018-MailPilotDemo-Opt/Assets/images/cloud.png</filename>
+            <filename>../../../COMP397-W2018-MailPilotDemo-Opt/Assets/images/island.png</filename>
+            <filename>../../../COMP397-W2018-MailPilotDemo-Opt/Assets/images/plane1.png</filename>
+            <filename>../../../COMP397-W2018-MailPilotDemo-Opt/Assets/images/plane2.png</filename>
+            <filename>../../../COMP397-W2018-MailPilotDemo-Opt/Assets/images/plane3.png</filename>
+            <filename>../images/coin01.png</filename>
+            <filename>../images/coin02.png</filename>
+            <filename>../images/coin03.png</filename>
+            <filename>../images/coin04.png</filename>
+            <filename>../images/coin05.png</filename>
+            <filename>../images/coin06.png</filename>
+            <filename>../images/coin07.png</filename>
+            <filename>../images/coin08.png</filename>
+            <filename>../images/coin09.png</filename>
+            <filename>../images/coin10.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
