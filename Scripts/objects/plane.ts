@@ -3,6 +3,7 @@ module objects {
         // Private instance variables
 
         // public properties
+        public planeFlash: objects.PlaneFlash;
 
         // Constructor
         constructor() {
@@ -11,11 +12,21 @@ module objects {
         }
 
         // private methods
+        private _animationEnded(): void {
+            if (this.alpha == 0) {
+                this.alpha = 1;
+                this.planeFlash.alpha = 0;
+            }
+        }
 
         // public methods
 
         // Initializes variables and creates new objects
         public Start(): void {
+            this.planeFlash = new objects.PlaneFlash();
+            this.planeFlash.alpha = 1;
+            this.planeFlash.on("animationend", this._animationEnded.bind(this), false);
+
             this.x = 320;
             this.y = 430;
         }
@@ -52,6 +63,9 @@ module objects {
             if (managers.Game.keyboardManager.moveBackward) {
                 this.y += 5;
             }
+
+            this.planeFlash.x = this.x;
+            this.planeFlash.y = this.y;
         }
 
         // check to see if some boundary has been passed

@@ -11,7 +11,7 @@ module managers {
                     object2.isColliding = true;
                     switch (object2.name) {
                         case "coin":
-                            if (object2.alpha != 0) {
+                            if ((object2.alpha != 0) && (object1.alpha != 0)) {
                                 createjs.Sound.play("coin");
                                 managers.Game.scoreBoard.Score += 100;
                                 object2.alpha = 0;
@@ -30,14 +30,19 @@ module managers {
 
                             break;
                         case "cloud":
-                            createjs.Sound.play("explosion");
-                            managers.Game.scoreBoard.Lives -= 1;
+                            if (object1.alpha != 0) {
+                                createjs.Sound.play("explosion");
+                                managers.Game.scoreBoard.Lives -= 1;
 
+                                let explosion = new objects.Explosion();
+                                explosion.x = object1.x;
+                                explosion.y = object1.y;
+                                managers.Game.currentSceneObject.addChild(explosion);
+                                object1.alpha = 0; // make the plane object invisible
+                                managers.Game.plane.planeFlash.alpha = 1;
+                                managers.Game.plane.planeFlash.gotoAndPlay("planeflash");
+                            }
 
-                            let explosion = new objects.Explosion();
-                            explosion.x = object1.x;
-                            explosion.y = object1.y;
-                            managers.Game.currentSceneObject.addChild(explosion);
                             break;
                     }
                 }

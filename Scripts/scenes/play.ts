@@ -29,6 +29,8 @@ module scenes {
         public Start(): void {
             this._ocean = new objects.Ocean();
             this._plane = new objects.Plane();
+            managers.Game.plane = this._plane;
+
             this._coin = new objects.Coin();
             this._island = new objects.Island();
 
@@ -53,6 +55,7 @@ module scenes {
 
         // triggered every frame
         public Update(): void {
+            console.log("Game Objects: " + this.numChildren);
             this._ocean.Update();
             this._plane.Update();
 
@@ -91,6 +94,9 @@ module scenes {
 
             // add the plane to the scene
             this.addChild(this._plane);
+
+            // add the plane flashing effect
+            this.addChild(this._plane.planeFlash);
 
             // add the cloud to the scene
             this._clouds.forEach(cloud => {
