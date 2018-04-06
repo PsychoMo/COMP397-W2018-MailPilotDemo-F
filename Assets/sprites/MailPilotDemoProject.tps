@@ -228,6 +228,8 @@
             <key type="filename">../images/explosion5.png</key>
             <key type="filename">../images/explosion6.png</key>
             <key type="filename">../images/explosion7.png</key>
+            <key type="filename">../images/planeflash1.png</key>
+            <key type="filename">../images/planeflash2.png</key>
             <key type="filename">../../../COMP397-W2018-MailPilotDemo-Opt/Assets/images/plane1.png</key>
             <key type="filename">../../../COMP397-W2018-MailPilotDemo-Opt/Assets/images/plane2.png</key>
             <key type="filename">../../../COMP397-W2018-MailPilotDemo-Opt/Assets/images/plane3.png</key>
@@ -310,6 +312,8 @@
             <filename>../images/explosion3.png</filename>
             <filename>../images/explosion4.png</filename>
             <filename>../images/explosion5.png</filename>
+            <filename>../images/planeflash1.png</filename>
+            <filename>../images/planeflash2.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
