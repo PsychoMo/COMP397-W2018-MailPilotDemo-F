@@ -5,6 +5,7 @@
 /// <reference path="../../Scripts/objects/scene.ts"/>
 /// <reference path="../../Scripts/math/Vec2.ts"/>
 /// <reference path="../../Scripts/objects/gameobject.ts"/>
+/// <reference path="../../Scripts/objects/explosion.ts"/>
 // Managers
 /// <reference path="../../Scripts/managers/keyboard.ts"/>
 /// <reference path="../../Scripts/managers/scoreboard.ts"/>
